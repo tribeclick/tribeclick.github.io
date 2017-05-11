@@ -28,7 +28,7 @@ Buscamos un programador backend senior para que se incorpore a nuestro equipo. Q
 - Salario competitivo
 - Oportunidad de progresión profesional
 - Aprendizaje continuo. (invertimos para que seas cada día mejor)
-- Excelente entorno laboral en el centro de la ciudad de Valencia. En una oficina con espacio abierto, área de descanso con café/té/fruta. A 1 min andando de la estación de metro (Colón).
+- Excelente entorno laboral en el centro de la ciudad de Valencia. En una oficina con espacio abierto, área de descanso con café/té/fruta. A 1 min andando de la estación de metro (Colón). Posibilidad de trabajar en remoto. 
 - Tú decides que herramientas necesitas para tu trabajo
 - Respecto al contrato: Buscamos una relación a largo plazo y evaluaremos la adaptación al equipo.  
 - Te gusta la oferta ¡Contáctanos en  *hiring {at} tribeclick {dot} com* !
