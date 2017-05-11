@@ -2,7 +2,7 @@
 
 ### ¿Qué hacemos en tribeclick?
 
-Nacemos hace 6 meses como una empresa de tecnología machine learning aplicada a la publicidad digital. Nuestra principal misión es convertirnos en el referente de la inteligencia artificial aplicada a la inversión publicitaria. Queremos que quien tenga que invertir en publicidad piense en nostros como herramienta para la optimización del retorno. 	
+Nacemos hace 9 meses como una empresa de tecnología machine learning aplicada a la publicidad digital. Nuestra principal misión es convertirnos en el referente de la inteligencia artificial aplicada a la inversión publicitaria. Queremos que quien tenga que invertir en publicidad piense en nostros como herramienta para la optimización del retorno. 	
 Actualmente el equipo está compuesto por 1 persona de negocio, 1 programador junior, 1 programador senior (responsable del área de datos y machine learning), 1 syadmin y 1 devops. 
 
 ### Reto tecnológico
