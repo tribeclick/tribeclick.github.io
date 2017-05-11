@@ -22,7 +22,7 @@ Buscamos un programador backend senior para que se incorpore a nuestro equipo. Q
 *ES IMPRESCINDIBLE PROGRAMAR EN GOLANG* . Buscamos un programador con capacidad de adaptación y con alto nivel de  aprendizaje.
 
 
-#Ofrecemos:#
+### Ofrecemos:
 
 - Horario de trabajo Nórdico: 8.00 a 16,30 (Lunes a Jueves) y Viernes de 8.00 a 15.00
 - Salario competitivo
