@@ -19,7 +19,7 @@ Hemos cerrado acuerdo de servicios con grandes empresas del sector que nos va a 
 
 Buscamos un programador backend senior para que se incorpore a nuestro equipo. Que sea proactivo, implicado,  autónomo y crítico con el producto. Que haya trabajado con testing y desarrollando producto.
 
-*ES IMPRESCINDIBLE PROGRAMAR EN GOLANG* . Buscamos un programador con capacidad de adaptación y con alto nivel de  aprendizaje.
+*ES IMPRESCINDIBLE PROGRAMAR EN GOLANG* . Buscamos un programador con capacidad de adaptación y con alto nivel de  aprendizaje. Con experiencia en desarrollo con arquitectura de microservicios. 
 
 
 ### Ofrecemos:
