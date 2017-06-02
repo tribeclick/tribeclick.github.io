@@ -10,7 +10,7 @@ Actualmente el equipo está compuesto por 1 persona de negocio, 1 programador ju
 
 Nuestro principal reto tecnológico son los tiempos de respuesta. Nuestra tecnología se aplica a RTB (subastas en tiempo real de publicidad). La idonsincrasia de la tecnología nos obliga a buscar latencias muy bajas en los tiempos de respuesta inferiores a 80ms por request; sumado a la segmentación y el machine learning, podrás imaginar que no es tarea sencilla ;) Por ello decidimos trabajar con arquitectura orientada a microservicios y utilizando GOlang como principal lenguaje de programación. 
 
-Las tecnologías que ahora conviven dentro de nuestra plataforma son: GOlang, Kafka, Spark, Django. 
+Las tecnologías que ahora conviven dentro de nuestra plataforma son: Golang, Kafka, Spark, Django. 
 
 ### ¿Cual es nuestro horizonte?
 
@@ -34,11 +34,12 @@ Bonus: Experiencia en adtech.
 - Salario competitivo
 - Oportunidad de progresión profesional
 - Aprendizaje continuo. (invertimos para que seas cada día mejor)
-- Excelente entorno laboral en el centro de la ciudad de Valencia. En una oficina con espacio abierto, área de descanso con café/té/fruta. A 1 min andando de la estación de metro (Colón). Posibilidad de trabajar en remoto. 
+- Excelente entorno laboral en el centro de la ciudad de Valencia. En una oficina con espacio abierto, área de descanso con café/té/fruta. A 1 min andando de la estación de metro (Colón). 
 - Tú decides que herramientas necesitas para tu trabajo
 - Respecto al contrato: Buscamos una relación a largo plazo y evaluaremos la adaptación al equipo.  
 - Te gusta la oferta ¡Contáctanos en  *hiring {at} tribeclick {dot} com* !
 - Posibilidad de trabajo en remoto. 
+- Plan de incentivos (Stock Options).
 
 ### Cuéntanos un poco más acerca de ti
 
