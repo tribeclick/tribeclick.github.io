@@ -38,6 +38,7 @@ Bonus: Experiencia en adtech.
 - Tú decides que herramientas necesitas para tu trabajo
 - Respecto al contrato: Buscamos una relación a largo plazo y evaluaremos la adaptación al equipo.  
 - Te gusta la oferta ¡Contáctanos en  *hiring {at} tribeclick {dot} com* !
+- Posibilidad de trabajo en remoto. 
 
 ### Cuéntanos un poco más acerca de ti
 
