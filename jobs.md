@@ -7,6 +7,7 @@ Nacemos hace 9 meses como una empresa de tecnología machine learning aplicada a
 Actualmente el equipo está compuesto por 1 persona de negocio, 1 programador junior, 1 programador senior (responsable del área de datos y machine learning), 1 syadmin y 1 devops. 
 
 ### Reto tecnológico
+
 Nuestro principal reto tecnológico son los tiempos de respuesta. Nuestra tecnología se aplica a RTB (subastas en tiempo real de publicidad). La idonsincrasia de la tecnología nos obliga a buscar latencias muy bajas en los tiempos de respuesta inferiores a 80ms por request; sumado a la segmentación y el machine learning, podrás imaginar que no es tarea sencilla ;) Por ello decidimos trabajar con arquitectura orientada a microservicios y utilizando GOlang como principal lenguaje de programación. 
 
 Las tecnologías que ahora conviven dentro de nuestra plataforma son: GOlang, Kafka, Spark, Django. 
@@ -20,7 +21,11 @@ Hemos cerrado acuerdo de servicios con grandes empresas del sector que nos va a 
 
 Buscamos un programador backend senior para que se incorpore a nuestro equipo. Que sea proactivo, implicado,  autónomo y crítico con el producto. Que haya trabajado con testing y desarrollando producto.
 
-*ES IMPRESCINDIBLE PROGRAMAR EN GOLANG* . Buscamos un programador con capacidad de adaptación y con alto nivel de  aprendizaje. Con experiencia en desarrollo con arquitectura de microservicios. 
+Buscamos ingeniero de software con capacidad de adaptación y con alto nivel de  aprendizaje. Con experiencia en desarrollo con arquitectura de microservicios. 
+
+Valoramos experiencia SOA/Arquitectura de microservicios, manejo fluido de inglés y con experiencia contrastada en el desarrollo de software backend.
+
+Bonus: Experiencia en adtech. 
 
 
 ### Ofrecemos:
