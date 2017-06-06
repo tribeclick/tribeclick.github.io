@@ -32,5 +32,5 @@ Stock Options
 
 Ping us at hiring {at} tribeclick {dot} com. Send us your CV, and tell us a bit about yourself. Even better, send us your github/bitbucket/linkedin profile!
 
-Also you can apply here https://www.linkedin.com/jobs/view/357899605/
+Also you can apply here [https://www.linkedin.com/jobs/view/357899605/]
 
