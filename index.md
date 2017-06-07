@@ -5,5 +5,5 @@
 [Offers in English](/jobs_en)
 <hr>
 <a href="http://www.linkedin.com/company-beta/10854534/">
- <img src="/assets/img/linkedin.jpg" class="center-image">
+ <img width="120px" src="/assets/img/linkedin.jpg" class="center-image">
 </a>
