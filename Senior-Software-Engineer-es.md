@@ -1,4 +1,4 @@
-## Senior Software Engineer - Valencia (Spain) / Remote
+## Senior Software Engineer - Valencia (España) / Remoto
 
 ### ¿Qué hacemos en tribeclick?
 
@@ -6,12 +6,13 @@ Nacemos hace 1 año como una empresa de tecnología machine learning aplicada a 
 
 ### Reto tecnológico
 
-Nuestro principal reto tecnológico son los tiempos de respuesta. Nuestra tecnología se aplica a RTB (subastas en tiempo real de publicidad). La idiosincrasia de la tecnología nos obliga a buscar latencias muy bajas en los tiempos de respuesta inferiores a 80 milisegundos/request; sumado a la segmentación y el machine learning, podrás imaginar que no es tarea sencilla ;) Por ello decidimos trabajar con arquitectura orientada a microservicios y utilizando Golang como principal lenguaje de programación.
-Las tecnologías que ahora conviven dentro de nuestra plataforma son: Golang, Kafka, Spark, Django.
+Nuestro principal reto tecnológico son los tiempos de respuesta. Nuestra tecnología se aplica a RTB (subastas en tiempo real de publicidad). La idiosincrasia de la tecnología nos obliga a buscar latencias muy bajas en los tiempos de respuesta inferiores a 80 milisegundos/request; sumado a la segmentación y el machine learning, podrás imaginar que no es tarea sencilla ;)
 
-### ¿Cual es nuestro horizonte?
+Por ello decidimos trabajar con arquitectura orientada a microservicios y utilizando Golang como principal lenguaje de programación.
+Las tecnologías que ahora conviven dentro de nuestra plataforma son: Golang, Kafka, Spark, Django y Airflow.
 
-Hemos cerrado acuerdo de servicios con grandes empresas del sector que nos va a permitir escalar de forma rápida en el mercado publicitario. No sé si conoces el mercado publicitario mundial pero si tuviéramos que elegir 3 palabras para definirlo estas serían: NO SE ACABA. Y ‘no se acaba’ porque la tendencia es clara: el consumo de contenido aumenta cada día gracias al uso de nuevas tecnologías.
+### ¿Cómo trabajamos?
+Somos un equipo pequeño, donde el valoramos la autonomía de cada miembro. Cada uno se gestiona cómo y desde donde trabaja. En cuanto a desarrollo, usamos una metodología Agile simplificada y usamos TDD.
 
 ###  ¿Qué perfil buscamos?
 - Ingeniero de Software con 3+ años de experiencia
@@ -22,7 +23,7 @@ Hemos cerrado acuerdo de servicios con grandes empresas del sector que nos va a 
 - Bonus Points! Manejo fluido de inglés
 - Bonus points! Experiencia en AdTech
 
-### Qué ofrecemos:
+### ¿Qué ofrecemos?
 - Flexibilidad Máxima. Tú decides donde y cuando trabajar.
 - Tú decides qué herramientas necesitas para tu trabajo
 - Oportunidad de progresión profesional
