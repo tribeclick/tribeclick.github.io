@@ -64,8 +64,7 @@ var crbtn_data = {
         "tags": ["azul","ropa","caballo"],                 
         "name":"zapatillas de deporte con ilustracion caballo",                 			"categories":["12","3"],             
         "image": "https://www.druni.es/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",                
-        "url":
-        "https://www.druni.es/novedades/rouge-g.html"
+        "url":"https://www.druni.es/novedades/rouge-g.html"
         
         }};
 
