@@ -64,9 +64,10 @@ var crbtn_data = {
         "isavailable":true,                 
         "sku" :"12212121212",                 
         "tags": ["azul","ropa","caballo"],                 
-        "name":"zapatillas de deporte con ilustracion caballo",                 			"categories":["12","3"],             
-        "image": "https://www.druni.es/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",                
-        "url":"https://www.druni.es/novedades/rouge-g.html"
+        "name":"zapatillas de deporte con ilustracion caballo",
+        "categories":["12","3"],             
+        "image": "https://www.example.com/3720880.jpg",                
+        "url":"https://www.example.com/novedades/rouge-g.html"
         
         }};
 
@@ -89,7 +90,8 @@ Algunos de los campos user no son obligatorios ya que el usuario podría ser an�
 
 ```javascript
 var crbtn_data = {                
-"products": [                
+"products": [    
+    
         {"id" : "2",                 
         "unit" : "1",                 
         "price" : "10.5"                
@@ -128,7 +130,7 @@ var crbtn_data = {"categoryid" : "2"}
 
 La implementación del software de recomendación se realiza a través de la colocación del siguiente código donde se quiera visualizar el widget. Para la implementación se necesita añadir entre las etiquetas `<body></body> `la librería de cerbatana. Los productos se mostrarán dentro de la etiqueta.
 
-La llamada a la función que pinta en el html los elementos recomendados es `crbtn.recommend()`. Esta función espera 3 atributos: (category, product o checkout), id de producto e id del div donde colocar el widget.
+La llamada a la función que pinta en el html los elementos recomendados es `crbtn.recommend()`. Esta función espera 3 atributos: place (category, product o checkout), id de producto e id del div donde colocar el widget.
 
 #### Ejemplo de implementación:
 
