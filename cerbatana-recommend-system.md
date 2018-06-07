@@ -1,3 +1,7 @@
+
+
+![](assets/img/tribeclick_logo_final-01-300x225-1.png)
+
 # documentación sistema recomendación
 
 ### Introducción
@@ -13,7 +17,7 @@ Para que el sistema pueda funcionar se debe colocar en entre las etiquetas "head
 ```html
 <script type="text/javascript" src="https://cerbatana.[id ecommerce].crbtn.com/api/v1/uuid?[random]"></script>
 <script type="text/javascript">
-window.crbtn_id = "000000001";
+	window.crbtn_id = "000000001";
 </script>
 
 ```
@@ -132,9 +136,9 @@ La llamada a la función que pinta en el html los elementos recomendados es `crb
 
 ```html
 <script type="text/javascript">
-    crbtn.recommend("product","1","DivIdBlock");
+    crbtn.recommend("product","1","divIdBlock");
 </script>
-<div id="DivIdBlock"></div>
+<div id="divIdBlock"></div>
 ```
 
 ### Dashboard

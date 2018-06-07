@@ -1,9 +1,12 @@
-## Welcome to the TribeClick Careers page.
+![](assets/img/tribeclick_logo_final-01-300x225-1.png)
 
-[Offers in Spanish](/jobs_es)
+# página de información de TribeClick 
 
-[Offers in English](/jobs_en)
-<hr>
-<a href="http://www.linkedin.com/company-beta/10854534/">
- <img width="120px" src="/assets/img/linkedin.jpg" class="center-image">
-</a>
+En esta página podrás encontrar información relacionada con el departamento técnico de Tribeclick, desde documentación técnica del software que desarrollamos hasta ofertas de empleo. 
+
+Bienvenido!
+
+[Documentación](/documentation_es)
+
+[Ofertas de empleo](/jobs_es)
+
