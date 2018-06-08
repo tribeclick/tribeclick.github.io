@@ -10,7 +10,7 @@ El equipo debe de estar compuesta por *profesionales sobresalientes* que inviert
 
 Comprendemos las necesidades de cada miembro de nuestro equipo, por esa razón la empresa se preocupará de satisfacer las inquietudes intelectuales y el progreso de cada uno de ellos. Todo trabajador de nuestra empresa tiene que tener la capacidad de tomar de forma libre y autónomo. 
 
-Nuestro trabajo debe orientarse a objetivos y centrado en tarea. La empresa debe de ser rentables gracias al compromiso y al cumplimiento de objetivo de cada miembro de la empresa; no por las horas de trabajo realizadas. Lo contrario sería perverso. 
+La empresa debe de ser consciente de su papel en el bienestar de cada persona que compone su equipo. Por esa razón debe de buscar mecanismo que ayuden a mejorar su conciliación familiar.   
 
 Los niveles jerarquicos no existen de una forma tradicional. Las decisiones estratégicas se tomarán desde la dirección, compuesta por al menos un lider de cada departamento y por asesores externos. Las decisiones tácticas serán tomadas y evaluadas por los líderes de cada departamento. Cada profesional debe de ser capaz de tomar decisiones operativas dentro de su ámbito de trabajo. Los profesionales deben  responsabilizarse de sus decisiones y de sus resultados. La *madurez profesional* trata de eso. 
 
