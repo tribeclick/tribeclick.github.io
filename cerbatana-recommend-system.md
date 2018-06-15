@@ -15,7 +15,7 @@ La integración del software se realiza a través de las plantillas html. La apl
 Para que el sistema pueda funcionar se debe colocar en entre las etiquetas "head" la librería y el identificador del comercio electrónico:
 
 ```html
-<script type="text/javascript" src="https://cerbatana..crbtn.com/api/v1/uuid?[random]&clientid=[client id]"></script>
+<script type="text/javascript" src="https://cerbatana.crbtn.com/api/v1/uuid?[random]&clientid=[client id]"></script>
 
 ```
 
@@ -76,8 +76,6 @@ var crbtn_data = {
 #### Atributos para las acciones purchase o checkout
 
 Tanto para los eventos de purchase como para checkout está esperando los siguientes atributos :
-
-Algunos de los campos user no son obligatorios ya que el usuario podría ser anónimo.  
 
 >  ` product->id: identificador de producto`
 >
