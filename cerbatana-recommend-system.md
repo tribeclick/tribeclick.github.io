@@ -6,6 +6,8 @@
 
 El sistema de recomendación es un software que permite prescribir a los usuarios productos, del catálogo del comercio electrónico donde está implatando, con el objetivo de incentivarles en la compra. 
 
+> Para el óptimo funcionamiento del sistema de recomendación es necesario que el tracker de eventos trabaje de forma independiente durante varios días con el objetivo de estudiar los datos. Pasado el periodo de entrenamiento, se deberá integrar el recomendador. 
+
 ### Integración
 
 La integración del software se realiza a través de las plantillas html. La aplicación se divide en dos procesos claramente diferenciados: el **tracker de eventos** (tracker) y la **visualización de productos recomendados** (recommend).
@@ -13,14 +15,11 @@ La integración del software se realiza a través de las plantillas html. La apl
 Para que el sistema pueda funcionar se debe colocar en entre las etiquetas "head" la librería y el identificador del comercio electrónico:
 
 ```html
-<script type="text/javascript" src="https://cerbatana.[id ecommerce].crbtn.com/api/v1/uuid?[random]"></script>
-<script type="text/javascript">
-	window.crbtn_id = "000000001";
-</script>
+<script type="text/javascript" src="https://cerbatana..crbtn.com/api/v1/uuid?[random]&clientid=[client id]"></script>
 
 ```
 
-> El identificador del comercio electrónico y la url de la librería serán enviados al administrador del sistema para la implantación. En la librería es obligado añadir un elemento random o timestamp como parámetro con el objetivo de evitar la caché del navegador.
+> El [client id] será facilitado al administrador del sistema para la implantación. En la librería es obligado añadir un elemento random o timestamp como parámetro con el objetivo de evitar la caché del navegador.
 
 
 
@@ -145,9 +144,9 @@ La llamada a la función que pinta en el html los elementos recomendados es `crb
 
 Para acceder al dashboard necesita visitar la siguiente dirección:
 
-**https://visual.[ID SERVICE].crbtn.com**
+**https://visual.[CLIENT ID].crbtn.com**
 
-El ID del servicio se le pasará a través de un email. En este dashboard se podrá ver datos tanto de los eventos producidos en el comercio electrónico, como información relevante extraída de diferentes fuentes. A su vez se le facilitará user y password para acceder al dashboard.
+El (Client id) se le pasará a través de un email. En este dashboard se podrá ver datos tanto de los eventos producidos en el comercio electrónico, como información relevante extraída de diferentes fuentes. A su vez se le facilitará user y password para acceder al dashboard.
 
 También es posible integrar diferentes fuentes de información como google analytics o fuentes de datos externa para el uso por parte de cualquier departamento de la compañía.
 
