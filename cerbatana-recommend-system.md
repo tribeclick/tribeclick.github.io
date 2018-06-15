@@ -58,9 +58,9 @@ var crbtn_data = {
     "product":{
         
         "id":"2",                 
-        "price":10.5,                 
+        "price":"10.5",                 
         "currency": "EUR",                
-        "isavailable":true,                 
+        "isavailable":"true",                 
         "sku" :"12212121212",                 
         "tags": ["azul","ropa","caballo"],                 
         "name":"zapatillas de deporte con ilustracion caballo",
