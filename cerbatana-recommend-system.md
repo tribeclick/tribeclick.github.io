@@ -58,9 +58,9 @@ var crbtn_data = {
     "product":{
         
         "id":"2",                 
-        "price":"10.5",                 
+        "price": 10.5,                 
         "currency": "EUR",                
-        "isavailable":"true",                 
+        "isavailable": true,                 
         "sku" :"12212121212",                 
         "tags": ["azul","ropa","caballo"],                 
         "name":"zapatillas de deporte con ilustracion caballo",
@@ -82,6 +82,8 @@ Tanto para los eventos de purchase como para checkout está esperando los siguie
 >  ` product->units: unidades de producto compradas`
 >
 >  ` product->price: identificador de producto`
+>
+>  
 
 #### Example
 
@@ -90,16 +92,16 @@ var crbtn_data = {
 "products": [    
     
         {"id" : "2",                 
-        "unit" : "1",                 
-        "price" : "10.5"                
+        "unit" : 1,                 
+        "price" : 10.5                
         },                 
         {"id" : "6",                 
-        "unit" : "1",                 
-        "price" : "3.0"                
+        "unit" : 1,                 
+        "price" : 3.0                
         },                 
         {"id" : "10",                 
-        "unit" : "2",                 
-        "price" : "0.5"                 
+        "unit" : 2,                 
+        "price" : 0.5                 
         }                 
 	]
 };
