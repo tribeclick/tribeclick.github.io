@@ -53,7 +53,7 @@ Tanto view, add-cart como delete-cart estarán esperando los siguientes atributo
 
 #### Example
 
-```javascript
+```json
 var crbtn_data = {         
     "product":{
         
@@ -87,7 +87,7 @@ Tanto para los eventos de purchase como para checkout está esperando los siguie
 
 #### Example
 
-```javascript
+```json
 var crbtn_data = {                
 "products": [    
     
@@ -129,16 +129,72 @@ var crbtn_data = {"categoryid" : "2"}
 
 La implementación del software de recomendación se realiza a través de la colocación del siguiente código donde se quiera visualizar el widget. Para la implementación se necesita añadir entre las etiquetas `<body></body> `la librería de cerbatana. Los productos se mostrarán dentro de la etiqueta.
 
-La llamada a la función que pinta en el html los elementos recomendados es `crbtn.recommend()`. Esta función espera 3 atributos: place (category, product o checkout), id de producto e id del div donde colocar el widget.
+La llamada a la función que pinta en el html los elementos recomendados es `crbtn.recommend()`. Esta función espera 3 atributos: place (category, product o checkout), id de producto y el nombre de la función donde se devolverá un objeto json.
 
 #### Ejemplo de implementación:
 
 ```html
 <script type="text/javascript">
-    crbtn.recommend("product","1","divIdBlock");
+    crbtn.recommend("product","1","function_example");
+    
+    function function_example(data){
+        
+        /*
+        * el parámetro data contendrá el objecto con los productos a mostrar. 
+        */      
+    }
 </script>
-<div id="divIdBlock"></div>
+
 ```
+
+#### Ejemplo de json devuelto por la función crbtn.recommend
+
+Aqui se muestra un ejemplo de la estructura devuelta por la función recommend. 
+
+```json
+{  
+   "title":"TOP VENTAS",
+   "products":[  
+      {  
+         "name":"Rouge G",
+         "brand":"GUERLAIN",
+         "price": 20.56 ,
+         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
+         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
+      },
+      {  
+         "name":"Rouge G III",
+         "brand":"GUERLAIN",
+         "price": 23.75,
+         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
+         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
+      },
+      {  
+         "name":"Rouge G II",
+         "brand":"GUERLAIN",
+         "price": 20.03,
+         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
+         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
+      },
+      {  
+         "name":"Rouge G !!",
+         "brand":"GUERLAIN",
+         "price": 10.26,
+         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
+         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
+      },
+      {  
+         "name":"Rouge G",
+         "brand":"GUERLAIN",
+         "price": 9.12,
+         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
+         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
+      }
+   ]
+}
+```
+
+
 
 ### Dashboard
 
