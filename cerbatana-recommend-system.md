@@ -88,7 +88,9 @@ Tanto para los eventos de purchase como para checkout está esperando los siguie
 #### Example
 
 ```json
-var crbtn_data = {                
+var crbtn_data = { 
+    
+"orderid" : "12h5784jK",    
 "products": [    
     
         {"id" : "2",                 
@@ -106,7 +108,7 @@ var crbtn_data = {
 	]
 };
 
-crbtn.track("checkout", crbtn_data);
+crbtn.track("purchase", crbtn_data);
 ```
 
 
