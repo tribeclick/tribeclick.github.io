@@ -113,19 +113,21 @@ crbtn.track("purchase", crbtn_data);
 
 
 
-#### Atributos para las acciones category
+#### Atributos para las acciones view-category
 
-Category espera los siguientes atributos:
+view-category espera los siguientes atributos:
 
 > ` categoryid: categoria visualizada `
 
-
-
 #### Example
 
-```javascript
-var crbtn_data = {"categoryid" : "2"}
+```json
+var crbtn_data = {"categoryid" : "2e"}
+
+crbtn.track("view-category", crbtn_data);
 ```
+
+
 
 ### Integración servicio de recomendación
 
