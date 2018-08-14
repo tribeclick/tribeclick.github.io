@@ -135,6 +135,17 @@ La implementación del software de recomendación se realiza a través de la col
 
 La llamada a la función que pinta en el html los elementos recomendados es `crbtn.recommend()`. Esta función espera 3 atributos: place (category, product o checkout), id de producto y el nombre de la función donde se devolverá un objeto json.
 
+Para la carga inicial es necesario procesar un archivo csv con las siguientes columnas:
+
+`id: identificador del producto`
+`name: nombre a mostrar del producto`
+`price: precio del producto (sin rebaja)`
+`categories: listado de id de categorias separados por comas`
+`tags: etiquetas de producto (opcional)` 
+`image_url: url de la imagen del producto a mostrar en la lista de recomendaciones`
+`brand: marca del producto`
+`product_url: url de la pagina del producto (url completa)`
+
 #### Ejemplo de implementación:
 
 ```html
