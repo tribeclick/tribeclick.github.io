@@ -209,7 +209,7 @@ Aqui se muestra un ejemplo de la estructura devuelta por la función recommend.
 }
 ```
 
-
+<u>Nota: Para evitar problemas en la carga es recomendable realizar las llamadas a las funciones una vez cargado el DOM del navegador usando funciones onready, onload o similar</u>
 
 ### Dashboard
 
