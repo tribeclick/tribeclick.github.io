@@ -94,15 +94,15 @@ var crbtn_data = {
 "products": [    
     
         {"id" : "2",                 
-        "unit" : 1,                 
+        "units" : 1,                 
         "price" : 10.5                
         },                 
         {"id" : "6",                 
-        "unit" : 1,                 
+        "units" : 1,                 
         "price" : 3.0                
         },                 
         {"id" : "10",                 
-        "unit" : 2,                 
+        "units" : 2,                 
         "price" : 0.5                 
         }                 
 	]
