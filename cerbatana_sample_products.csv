@@ -1,0 +1,4 @@
+product_id,name,price,currency,category_ids,image_url,brand,url,domain
+12312-13-123,RoadRunner bait,15.5,EUR,"12,233,summer",http://www.store.com/36roadrunner-bait.jpg,Acme,http://store.com/r/products/roadrunner-bait,store.com
+3213123es,Cebo para correcaminos,15,EUR,"7,8,17",http://www.store.es/36roadrunner-bait.jpg,Acme,http://store.es/r/products/caza-correcaminos,store.es
+123312ffg,Zombie Cure,139,EUR,"halloween,zombies",http://www.store.com/zombie-cure.png,Umbrella Corp,http://store.com/r/products/zombie-cure,store.com

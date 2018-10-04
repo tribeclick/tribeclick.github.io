@@ -8,6 +8,12 @@ El sistema de recomendación es un software que permite prescribir a los usuario
 
 > Para el óptimo funcionamiento del sistema de recomendación es necesario que el tracker de eventos trabaje de forma independiente durante varios días con el objetivo de estudiar los datos. Pasado el periodo de entrenamiento, se deberá integrar el recomendador. 
 
+Previamente a la integración es necesario recopilar el catálogo de productos a través de csv con el siguiente formato:
+
+`product_id,name,price,currency,category_ids,image_url,brand,url,domain`
+
+Puedes ver un ejemplo aqui: [sample.csv](cerbatana_sample_products.csv )
+
 ### Integración
 
 La integración del software se realiza a través de las plantillas html. La aplicación se divide en dos procesos claramente diferenciados: el **tracker de eventos** (tracker) y la **visualización de productos recomendados** (recommend).
@@ -77,11 +83,13 @@ var crbtn_data = {
 
 Tanto para los eventos de purchase como para checkout está esperando los siguientes atributos :
 
->  ` product->id: identificador de producto`
+>  ` orderid: identificador de orden de compra`
 >
->  ` product->units: unidades de producto compradas`
+>  ` products->id: identificador de producto`
 >
->  ` product->price: identificador de producto`
+>  ` products->units: unidades de producto compradas`
+>
+>  ` products->price: identificador de producto`
 >
 >  
 
@@ -137,14 +145,15 @@ La llamada a la función que pinta en el html los elementos recomendados es `crb
 
 Para la carga inicial es necesario procesar un archivo csv con las siguientes columnas:
 
-`id: identificador del producto`
-`name: nombre a mostrar del producto`
-`price: precio del producto (sin rebaja)`
-`categories: listado de id de categorias separados por comas`
-`tags: etiquetas de producto (opcional)` 
-`image_url: url de la imagen del producto a mostrar en la lista de recomendaciones`
-`brand: marca del producto`
-`product_url: url de la pagina del producto (url completa)`
+> `id: identificador del producto`
+> `name: nombre a mostrar del producto`
+> `price: precio del producto (sin rebaja)`
+> `categories: listado de id de categorias separados por comas`
+> `tags: etiquetas de producto (opcional)` 
+> `image_url: url de la imagen del producto a mostrar en la lista de recomendaciones`
+> `brand: marca del producto`
+> `product_url: url de la pagina del producto (url completa)`
+>
 
 #### Ejemplo de implementación:
 
