@@ -119,8 +119,6 @@ var crbtn_data = {
 crbtn.track("purchase", crbtn_data);
 ```
 
-
-
 #### Atributos para las acciones view-category
 
 view-category espera los siguientes atributos:
@@ -135,7 +133,37 @@ var crbtn_data = {"categoryid" : "2e"}
 crbtn.track("view-category", crbtn_data);
 ```
 
+#### Atributos para otro tipo de acciones
 
+Para cualquier otro tipo de eventos (homepage, error, search), cerbatana espera los siguientes atributos:
+
+> ` data: un diccionario con cualquier tipo de dato que se quiera monitorizar
+
+#### Example
+
+```json
+	 var crbtn_data = {
+            "data": {"query": "zapatos de tacón"} 
+	}
+
+crbtn.track("search", crbtn_data);
+```
+
+```json
+	 var crbtn_data = {
+            "data": {} 
+	}
+
+crbtn.track("homepage", crbtn_data);
+```
+
+```json
+	 var crbtn_data = {
+            "data": {"page": "/products/invalid_product.html"} 
+	}
+
+crbtn.track("error", crbtn_data);
+```
 
 ### Integración servicio de recomendación
 
