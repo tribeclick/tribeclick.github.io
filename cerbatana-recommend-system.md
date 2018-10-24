@@ -1,5 +1,3 @@
-
-
 # documentación sistema recomendación
 
 ### Introducción
@@ -204,45 +202,28 @@ Para la carga inicial es necesario procesar un archivo csv con las siguientes co
 Aqui se muestra un ejemplo de la estructura devuelta por la función recommend. 
 
 ```json
-{  
-   "title":"TOP VENTAS",
-   "products":[  
-      {  
-         "name":"Rouge G",
-         "brand":"GUERLAIN",
-         "price": 20.56 ,
-         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
-         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
-      },
-      {  
-         "name":"Rouge G III",
-         "brand":"GUERLAIN",
-         "price": 23.75,
-         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
-         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
-      },
-      {  
-         "name":"Rouge G II",
-         "brand":"GUERLAIN",
-         "price": 20.03,
-         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
-         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
-      },
-      {  
-         "name":"Rouge G !!",
-         "brand":"GUERLAIN",
-         "price": 10.26,
-         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
-         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
-      },
-      {  
-         "name":"Rouge G",
-         "brand":"GUERLAIN",
-         "price": 9.12,
-         "url_image":"https://www.example.com/media/catalog/product/cache/1/small_image/178x/9df78eab33525d08d6e5fb8d27136e95/3/7/3720880.jpg",
-         "url":"https://www.example.com/novedades/rouge-g.html?utm_source=cerbatana"
-      }
-   ]
+{
+	"recommendation_type": "category",
+	"products": [
+ 	{
+		"categories": ["Camisetas", "Rebajas"],
+		"isavailable": true,
+		"sku": "SADSQ",
+		"price": 18.0,
+		"id": "7530",
+		"image": "http://example.mycerbatana.com/wp-content/uploads/2018/05/vneck-tee.jpg",
+        "name": "Camiseta de cuello en V",
+		"url": "http://example.mycerbatana.com/producto/vneck-tee/"
+	}, {
+		"categories": ["Camisetas"],
+		"isavailable": true,
+		"sku": "ASDD1231",
+		"price": 18,
+		"id": "722700",
+		"image": "http://example.mycerbatana.com/wp-content/uploads/2018/05/tshirt.jpg",
+		"name": "Camiseta",
+		"url": "http://example.mycerbatana.com/producto/tshirt/"
+	}]
 }
 ```
 
