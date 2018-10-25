@@ -142,7 +142,7 @@ Para cualquier otro tipo de eventos (homepage, error, search), cerbatana espera 
 ```json
 	 var crbtn_data = {
             "data": {"query": "zapatos de tacón"} 
-	}
+	};
 
 crbtn.track("search", crbtn_data);
 ```
@@ -150,7 +150,7 @@ crbtn.track("search", crbtn_data);
 ```json
 	 var crbtn_data = {
             "data": {} 
-	}
+	};
 
 crbtn.track("homepage", crbtn_data);
 ```
@@ -158,7 +158,7 @@ crbtn.track("homepage", crbtn_data);
 ```json
 	 var crbtn_data = {
             "data": {"page": "/products/invalid_product.html"} 
-	}
+	};
 
 crbtn.track("error", crbtn_data);
 ```
