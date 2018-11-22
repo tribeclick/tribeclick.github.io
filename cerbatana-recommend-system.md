@@ -19,7 +19,7 @@ La integración del software se realiza a través de las plantillas html. La apl
 Para que el sistema pueda funcionar se debe colocar en entre las etiquetas "head" la librería y el identificador del comercio electrónico:
 
 ```html
-<script type="text/javascript" src="https://cerbatana.crbtn.com/api/v1/uuid?[random]&clientid=[client id]"></script>
+<script type="text/javascript" src="https://cerbatana.crbtn.com/api/v1/uuid?[random]&clientid=[client id]" async></script>
 
 ```
 
