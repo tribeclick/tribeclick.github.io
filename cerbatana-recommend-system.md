@@ -54,11 +54,16 @@ Tanto view, add-cart como delete-cart estarán esperando los siguientes atributo
 > `product->url: url del detalle del producto (string) `
 >
 > `product->image: url de la imagen principal del producto (string)`
+>
+> `store_uuid->id: identificador del usuario en la tienda (string)`
 
 #### Example
 
 ```json
 var crbtn_data = {         
+    "user": {
+    	"store_uuid": "12okjok-12313kof"
+    },
     "product":{
         
         "id":"2",                 
@@ -89,14 +94,17 @@ Tanto para los eventos de purchase como para checkout está esperando los siguie
 >
 >  ` products->price: identificador de producto`
 >
->  
+> `store_uuid->id: identificador del usuario en la tienda (string)`
 
 #### Example
 
 ```json
 var crbtn_data = { 
     
-"orderid" : "12h5784jK",    
+"orderid" : "12h5784jK",
+"user": {
+    	"store_uuid": "12okjok-12313kof"
+},
 "products": [    
     
         {"id" : "2",                 
@@ -122,11 +130,18 @@ crbtn.track("purchase", crbtn_data);
 view-category espera los siguientes atributos:
 
 > ` categoryid: categoria visualizada `
+>
+> `store_uuid->id: identificador del usuario en la tienda (string)`
 
 #### Example
 
 ```json
-var crbtn_data = {"categoryid" : "2e"}
+var crbtn_data = {
+    "user": {
+    	"store_uuid": "12okjok-12313kof"
+    },
+    "categoryid" : "2e"
+    }
 
 crbtn.track("view-category", crbtn_data);
 ```
@@ -136,11 +151,16 @@ crbtn.track("view-category", crbtn_data);
 Para cualquier otro tipo de eventos (homepage, error, search), cerbatana espera los siguientes atributos:
 
 > ` data: un diccionario con cualquier tipo de dato que se quiera monitorizar
+>
+> `store_uuid->id: identificador del usuario en la tienda (string)`
 
 #### Example
 
 ```json
 	 var crbtn_data = {
+	     "user": {
+    		"store_uuid": "12okjok-12313kof"
+    	    },
             "data": {"query": "zapatos de tacón"} 
 	};
 
@@ -149,6 +169,9 @@ crbtn.track("search", crbtn_data);
 
 ```json
 	 var crbtn_data = {
+	     "user": {
+    		"store_uuid": "12okjok-12313kof"
+    	    },
             "data": {} 
 	};
 
@@ -157,6 +180,9 @@ crbtn.track("homepage", crbtn_data);
 
 ```json
 	 var crbtn_data = {
+	     "user": {
+    	       "store_uuid": "12okjok-12313kof"
+            },
             "data": {"page": "/products/invalid_product.html"} 
 	};
 
@@ -185,7 +211,7 @@ Para la carga inicial es necesario procesar un archivo csv con las siguientes co
 
 ```html
 <script type="text/javascript">
-    crbtn.recommend("product","1","function_example");
+    crbtn.recommend("product","1", "store_uuid", "function_example");
     
     function function_example(data){
         
